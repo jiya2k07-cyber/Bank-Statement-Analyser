@@ -1,0 +1,12 @@
+# secrets
+.env
+.streamlit/secrets.toml
+# runtime state / caches
+data/*.json
+data/*.corrupt-*
+data/*.tmp
+__pycache__/
+.pytest_cache/
+.venv/
+# private grading data
+answer_key.xlsx
